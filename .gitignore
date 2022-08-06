@@ -1,4 +1,8 @@
 .env/
 .vscode/
+.vs/
+.scons*
 
 *.import
+
+goatee-cpp/Builds

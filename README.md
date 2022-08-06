@@ -41,4 +41,10 @@ cd godot-cpp
 
 # build godot-cpp using scons
 scons target=release platform=windows generate_bindings=yes bits=64
+
+# navigate to goatee-cpp folder
+cd ../goatee-cpp
+
+# build goatee binaries
+scons target=release platform=windows
 ```

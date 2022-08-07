@@ -2,13 +2,12 @@
 
 A Deep Learning library developed for the Godot Game Engine.
 
-## Developing the library
+# Contributing to the library
 
-## Setup
+## Setup the development environment
 
 A huge thank you to Thoughtquake for his [C++ with Godot tutorial](https://www.youtube.com/watch?v=XPcSfXsoArQ&list=PLu-KuZM47vrnVl3Dv1LXcw5MJZIr6ETvi). Most of the steps were borrowed from him and slightly changed to suit my dev environment.
 
-### Step 1 - Setup the development environment
 You will need to **install Visual Studio** together with the C++ development tools.
 
 Then open a terminal in this folder and run
@@ -26,7 +25,7 @@ python -m venv .env
 pip install scons
 ```
 
-### Step 2 - Build the godot-cpp library
+## Build the godot-cpp library
 **Note**: At the time of writing this, there is an [open issue](https://github.com/godotengine/godot/issues/62128) for building godot-cpp with anithing other than x64 Native Tools.
 
 Because of this, you will need to open a **x64 Native Tools Command Prompt** and navigate to this folder.
@@ -48,3 +47,10 @@ cd ../goatee-cpp
 # build goatee binaries
 scons target=release platform=windows
 ```
+
+# ToDos
+- [ ] Add instructions for how to setup xtensor with vcpkg
+- [x] Add matrix loading into cpp
+- [ ] Overwrite basic opperations between arrays (addition, subtraction etc.)
+- [ ] Add ability to transpose matrix
+- [ ] Implement np.vectorize

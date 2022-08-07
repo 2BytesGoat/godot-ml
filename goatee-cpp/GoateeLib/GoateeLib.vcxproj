@@ -71,7 +71,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>..\..\godot-cpp\include\gen;..\..\godot-cpp\include\core;..\..\godot-cpp\godot-headers;$(IncludePath)</IncludePath>
+    <IncludePath>..\..\vcpkg\installed\x64-windows\include;..\..\godot-cpp\include\gen;..\..\godot-cpp\include\core;..\..\godot-cpp\godot-headers;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
